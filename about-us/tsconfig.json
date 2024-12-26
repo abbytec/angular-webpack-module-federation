@@ -1,0 +1,9 @@
+{
+	"extends": "../tsconfig.base.json", // opcional si tienes un base
+	"compilerOptions": {
+		"outDir": "./dist/out-tsc"
+		// Aquí puedes poner "types": ["node"] si lo necesitas
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules"]
+}
