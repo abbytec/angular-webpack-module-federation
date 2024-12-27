@@ -1,7 +1,9 @@
 {
 	"extends": "../tsconfig.base.json",
 	"compilerOptions": {
-		"outDir": "./dist/out-tsc"
+		"strict": true,
+		"outDir": "./dist/out-tsc",
+		"forceConsistentCasingInFileNames": true
 	},
 	"include": ["src/**/*.ts", "../host/src/declares.d.ts", "src/main.ts", "src/bootsrap.ts"],
 	"exclude": ["node_modules"]
